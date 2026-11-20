@@ -7,25 +7,24 @@ public class Main {
             //Scanner declaration
             Scanner input = new Scanner(System.in);
 
+            //Circle
+            circal c1 = new circal();
             //Vars
-            double raduis, valuom, area, circumfirence;
+            double radius;
 
             //the input
 
             System.out.print("Enter the raiduce: ");
-            raduis = input.nextDouble();
+            radius = input.nextDouble();
 
-            //the calcultions
 
-            area = Math.pow(raduis, 2) * Math.PI;
-            circumfirence =  2 * Math.PI * raduis;
-            valuom = (4.0/3.0) * Math.PI * Math.pow(raduis, 3);
+            //set using
+            c1.setRadius(radius);
 
-            //the printing
-
-            System.out.printf("The circumfirence is equal: %.2fcm\n", circumfirence);
-            System.out.printf("The Area is equal:          %.2fcm²\n", area);
-            System.out.printf("The valuom is equal:        %.2fcm³\n", valuom);
+            //the methods and its printing
+            System.out.printf("the area: %.2fcm\n", c1.circalArea());
+            System.out.printf("the circumfirence: %.2fcm²\n", c1.circalCircumfirence());
+            System.out.printf("the Volum: %.2fcm³\n", c1.circalVolum());
 
 
             input.close();
