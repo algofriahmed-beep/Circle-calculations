@@ -14,7 +14,7 @@ public class Main {
 
             //the input
 
-            System.out.print("Enter the raiduce: ");
+            System.out.print("Enter the radius: ");
             radius = input.nextDouble();
 
 
@@ -28,9 +28,6 @@ public class Main {
 
 
             input.close();
-
-
-
 
 
         }
