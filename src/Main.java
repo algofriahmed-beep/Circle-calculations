@@ -8,7 +8,7 @@ public class Main {
             Scanner input = new Scanner(System.in);
 
             //Circle
-            circal c1 = new circal();
+            circle c1 = new circle();
             //Vars
             double radius;
 

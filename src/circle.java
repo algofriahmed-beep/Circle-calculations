@@ -1,10 +1,10 @@
-public class circal {
+public class circle {
 
     //the vars
     private double radius;
 
     // constructor
-    circal(){}
+    circle(){}
     //the methods
     double circalArea(){return Math.pow(this.radius, 2) * Math.PI;}
     double circalCircumfirence(){return 2 * Math.PI *this.radius;}
