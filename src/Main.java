@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 
+        // nothing change in the code just trying to understand the push and pull in github
+        
         public static void main(String[] args){
 
             //Scanner declaration
